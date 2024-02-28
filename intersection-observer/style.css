@@ -1,0 +1,25 @@
+body {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div {
+    height: 230px;
+    width: 220px;
+    background-color: salmon;
+    margin: 0 auto 100px auto;
+    border-radius: 20px;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
